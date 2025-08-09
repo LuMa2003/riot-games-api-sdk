@@ -7,7 +7,7 @@
       }
   },
   "runArgs": [
-    "--name=go-dev"
+    "--name=go-dev-riot-sdk"
   ],
   "customizations": {
     "vscode": {
