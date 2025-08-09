@@ -1,0 +1,23 @@
+{
+  "name": "Go dev",
+  "image": "mcr.microsoft.com/devcontainers/go",
+  "features": {
+      "ghcr.io/LuMa2003/golang-air-feature/air:1": {
+          "version": "latest"
+      }
+  },
+  "runArgs": [
+    "--name=go-dev"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.Go"
+      ],
+      "settings": {
+        "go.toolsManagement.checkForUpdates": "local",
+        "go.useLanguageServer": true
+      }
+    }
+  }
+}
